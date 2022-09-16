@@ -28,7 +28,6 @@ text-align: center;
 }
 img{
   width: 100%;
-  min-width: 100%;
   height:100%;
   filter: opacity(0.3) drop-shadow(0 0 0 rgb(170, 92, 219)); 
   border-radius: 0px 15px 15px 0px;
@@ -69,7 +68,7 @@ p{
 @media (max-width: 768px)
 {
   main{
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .cardLeft, .cardLeftParagraph{
     font-size: 0.9em;
@@ -83,11 +82,18 @@ p{
   .cardLeftBottom{
     padding-top: 10vh;
   }
+  .cardRight{
+    width:70vw;
+  }
+  .cardLeft{
+    width:70vw;
+  }
   img{
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 15px 15px 0px 0px;
   }
   .cardLeft{
     border-radius: 15px 15px 0px 0px;
+    border-radius: 0px 0px 15px 15px;
   }
   .attribution{
     padding-top:10vh;
