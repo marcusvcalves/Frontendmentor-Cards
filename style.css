@@ -1,0 +1,75 @@
+body{
+  background:hsl(233, 47%, 7%);
+}
+main{
+  display:flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+  width: 98.1vw;
+  height: 100vh;
+
+}
+.cardLeft{
+  height:400px;
+  width:400px;
+  background:hsl(244, 38%, 16%);
+  border-radius: 15px 0px 0px 15px;
+}
+h1, .cardLeftParagraph{
+text-align: center;
+
+}
+.cardLeftParagraph{
+  color:hsla(0, 0%, 100%, 0.75);
+}
+.cardRight{
+  height:400px;
+  width:400px;
+}
+img{
+  width: 100%;
+  height:100%;
+  filter: opacity(0.3) drop-shadow(0 0 0 rgb(170, 92, 219)); 
+  border-radius: 0px 15px 15px 0px;
+  
+}
+.insights{
+  color:rgb(170, 92, 219);
+}
+.cardLeftBottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top:15%;
+
+}
+.itemCardLeftBottom p:nth-of-type(1){
+font-size: 1.5em;
+}
+.itemCardLeftBottom p:nth-of-type(2){
+  color:hsla(0, 0%, 100%, 0.75);
+}
+h1{
+  font-family: 'Inter', sans-serif;
+  color:hsl(0, 0%, 100%);
+}
+p{
+  color:hsl(0, 0%, 100%);
+  font-family: 'Lexend Deca', sans-serif;
+  Font-size: 15px
+}
+@media (max-width: 600px)
+{
+  .itemCardLeftBottom p:nth-of-type(2){
+    font-size: 0.75em;
+  }
+}
+.attribution {
+    color:white;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
