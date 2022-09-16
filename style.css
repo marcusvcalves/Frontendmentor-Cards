@@ -32,6 +32,7 @@ img{
   height:100%;
   filter: opacity(0.3) drop-shadow(0 0 0 rgb(170, 92, 219)); 
   border-radius: 0px 15px 15px 0px;
+
   
 }
 .insights{
@@ -41,7 +42,7 @@ img{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top:15%;
+  padding-top:60px;
 
 }
 .itemCardLeftBottom p:nth-of-type(1){
