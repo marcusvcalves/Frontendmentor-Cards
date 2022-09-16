@@ -68,6 +68,9 @@ p{
 }
 @media (max-width: 768px)
 {
+  main{
+    flex-direction: column;
+  }
   .cardLeft, .cardLeftParagraph{
     font-size: 0.9em;
   }
@@ -79,6 +82,15 @@ p{
   }
   .cardLeftBottom{
     padding-top: 10vh;
+  }
+  img{
+    border-radius: 0px 0px 15px 15px;
+  }
+  .cardLeft{
+    border-radius: 15px 15px 0px 0px;
+  }
+  .attribution{
+    padding-top:10vh;
   }
 }
 
