@@ -42,7 +42,8 @@ img{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top:125px;
+  margin-top: 150px;
+  gap: 5.2rem;
 }
 
 .itemCardLeftBottom p:nth-of-type(1){
