@@ -11,7 +11,7 @@ main{
 }
 .cardLeft{
   width:40vw;
-  height: 75vh;
+  height: 60vh;
   background:hsl(244, 38%, 16%);
   border-radius: 15px 0px 0px 15px;
 }
@@ -23,7 +23,7 @@ text-align: center;
   color:hsla(0, 0%, 100%, 0.75);
 }
 .cardRight{
-  height: 75vh;
+  height: 60vh;
   width:40vw;
 }
 img{
@@ -39,7 +39,8 @@ img{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top:15vh;
+  padding-top:10vh;
+  font-size: 0.75em;
 }
 
 .itemCardLeftBottom p:nth-of-type(1){
@@ -61,7 +62,7 @@ p{
 @media (max-width: 1000px)
 {
   .cardLeftBottom{
-    padding-top:10vh;
+    padding-top:0vh;
   }
 
 }
@@ -75,12 +76,6 @@ p{
   }
   .itemCardLeftBottom p:nth-of-type(2){
     font-size: 0.75em;
-  }
-  .itemCardLeftBottom{
-    font-size: 0.75em;
-  }
-  .cardLeftBottom{
-    padding-top: 10vh;
   }
   .cardRight{
     width:70vw;
